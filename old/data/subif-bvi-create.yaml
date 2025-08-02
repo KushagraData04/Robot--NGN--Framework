@@ -1,0 +1,32 @@
+# FALCON
+falcon_Ports:
+ - 1/6/1
+ - 1/12/1
+phy: 1/6,12/1-2
+falcon_bundle_ports:
+ - phy-1_6_1
+ - phy-1_6_2
+bundle_id: 90
+subif_count: 250
+phy_for_subif: phy-1_12_1
+phy_subif_2nd_octet: 1
+bundle_subif_2nd_octet: 3
+bvi_2nd_octet: 4
+subif_acl_prefix: aa
+bundle_acl_prefix: bb
+bvi_acl_prefix: cc
+sleep_val: 5s
+
+# STBR 117
+stbr_Ports:
+  - 1/1/21
+  - 1/1/22
+stbr_bundle_ports: 
+ - phy-1_1_21
+ - phy-1_1_22
+
+ # STBR 130
+stbr130_Ports:
+  - 1/1/21
+stbr130_bundle_ports: 
+ - phy-1_1_21

@@ -1,0 +1,29 @@
+# https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#toc-entry-377
+#
+
+prompt: FALCON-118#
+ip: 192.168.111.118
+bundleid: 55
+ports:
+  - phy-1_25_1
+  - phy-1_29_1
+  - phy-1_31_1
+ports2:
+  - phy-1_29_1
+  - phy-1_31_1
+physical:
+  - 1/25/1
+  - 1/29/1
+  - 1/31/1
+dut_iface2: phy-1_19_1
+serverport2: phy-1_20_1
+vlanport1: phy-1_25_1
+vlanport2: phy-1_29_1
+mstp1: phy-1_25_1
+mstp2: phy-1_29_1
+mstp3: phy-1_31_1
+server: 1/19/1
+mclag: 1/14/1
+mclagport: phy-1_14_1
+ip1:
+

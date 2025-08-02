@@ -1,0 +1,21 @@
+# https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#toc-entry-377
+#
+
+prompt: LOCAL-LEAF-001#
+target_ip: 192.168.111.181
+Dip: 10.0.201.130
+Sip: 10.0.201.10
+Name: 3
+iface: bundle-15
+iface1: bundle 15
+direction: both        #both,rx-only,tx-only
+spine_bundle: bundle 1
+interfaces:
+  - bundle-11
+
+Origin: 181.181.181.181
+AclName: erspanACl
+Aclsip: 10.0.201.10
+sipmask: 255.255.255.0
+Aclmirror: 4
+
